@@ -1,18 +1,40 @@
 * {
     box-sizing: border-box;
 }
-body     {
+
+body {
     margin: 0;
+    color: #b6b6b6;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
 }
+
 .container {
     width: 1200px;
     margin: 0 auto;
 }
+h1, 
+h2, 
+h3{
+    font-family: 'Montserrat';
+    color: #333;
+}
+h3 {
+    font-weight: 400;
+}
+
+.header {
+    padding: 17px 0;
+}
+
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .menu-list {
     margin: 0;
     padding-left: 0;
@@ -20,23 +42,44 @@ body     {
     display: flex;
     gap: 55px;
 }
+
 .header .logo {
     margin: 0;
-    font-family: ;
+    font-family: 'Montserrat';
     font-size: 30px;
     line-height: 37px;
     color: #95E1D3;
 }
-.menu-link{
+
+.menu-link {
     text-decoration: none;
     text-transform: uppercase;
-    font-family:'Montserrat' ;
+    font-family: 'Montserrat';
     font-size: 14px;
     line-height: 17px;
     color: #95E1D3;
-    transition: all 0.3s    ;
+    padding-bottom: 10px;
+    transition: all 0.3s;
 }
+
 .menu-link:hover {
     color: #F38181;
-    border-bottom: 3px solid #F38181;;
+    border-bottom: 3px solid #F38181;
+}
+.section-title {
+    text-align: center;
+}
+.section-title .uptitle {
+    font-family: 'Kaushan Script';
+    font-size: 24px;
+    line-height: 35px;
+    color: #333;
+    margin: 0;
+}
+.section-title h2{
+    margin: 20px 0 40px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    font-variant: small-caps;
 }
