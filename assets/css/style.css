@@ -67,7 +67,7 @@ ul {
 }
 
 #toggle:checked ~ nav {
-    top: 80px;
+    right: 0;
     opacity: 1;
 }
 
@@ -132,12 +132,13 @@ ul {
         position: absolute;
         width: 100%;
         top: -100%;
+        right: -105%;
         opacity: 0;
-        left: 0;
+        right: -100%;
         background: #fff;
         box-shadow: 0 16px 15px #888;
         padding-bottom: 30px;
-        transition: top .3s, opacity .3s;
+        transition: all .3s, opacity .3s;
     }
 
     .menu-list {
@@ -309,4 +310,13 @@ ul {
     .team_list_member {
         width: 100%;
     }
+}
+.team_list_member h3{
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+.team_list_member p{
+    text-align: center;
+    font-style: italic;
 }
